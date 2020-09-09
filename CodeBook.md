@@ -21,6 +21,22 @@ File with R code "run_analysis.R" performs the 5 following steps (in accordance 
 
 The code assumes all the data is present in the same folder, un-compressed and without names altered.
 
-## About variables:   
-* `xtrain`, `ytrain`, `xtest`, `ytest`, `subject_train` and `subject_test` contain the data from the downloaded files.
-* `features` contains the correct names for the `xdata` dataset, which are applied to the column names stored in
+##The data
+
+The dataset includes the following files:
+
+'README.txt'
+
+'features_info.txt': Shows information about the variables used on the feature vector.
+
+'features.txt': List of all features.
+
+'activity_labels.txt': Links the class labels with their activity name.
+
+'train/X_train.txt': Training set.
+
+'train/y_train.txt': Training labels.
+
+'test/X_test.txt': Test set.
+
+'test/y_test.txt': Test labels.
