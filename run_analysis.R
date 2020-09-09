@@ -47,6 +47,5 @@ Newtidyset <- merge(tidySet, activity_labels,
                               by = "activity_ID",
                               all.x = TRUE)
 Newtidyset <- Newtidyset[order(Newtidyset$subject_ID,Newtidyset$activity_ID), ]
-Newtidyset <- Newtidyset[,c(1,2,73,3:72)]
 Newtidyset<- Newtidyset[,c(2,1,3:72)]
 write.table(tidySet, "tidySet.txt", row.names = FALSE)
